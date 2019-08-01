@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc --build tsconfig.json"
+    "build": "tsc src/sync-example.ts",
+    "start": "node src/sync-example.js"
   },
   "author": "",
   "license": "ISC",
